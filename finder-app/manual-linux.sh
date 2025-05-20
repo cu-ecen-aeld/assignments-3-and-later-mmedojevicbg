@@ -15,7 +15,7 @@ FINDER_APP_DIR=$(realpath $(dirname $0))
 ARCH=arm64
 CROSS_COMPILE=aarch64-none-linux-gnu-
 
-sudo apt-get install libgmp-dev
+sudo apt-get install -y libgmp-dev
 
 if [ $# -lt 1 ]
 then
